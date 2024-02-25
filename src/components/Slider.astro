@@ -1,0 +1,58 @@
+<div
+  class="w-full overflow-hidden flex flex-nowrap text-center py-5 mb-20"
+  id="slider"
+>
+  <div class="flex-none w-full flex flex-row items-center justify-center">
+    <a href="/" class="w-2/3">
+      <img src="images/estas-buscando-una-cafeteria-en-ferrol.jpg" />
+    </a>
+    <div
+      class="flex flex-col justify-center items-center w-1/3 bg-gray-200 h-full gap-3"
+    >
+      <h2 class="text-3xl font-bold">
+        ¿Estás buscando una cafetería en Ferrol?
+      </h2>
+      <p class="text-lg font-thin">Disfruta del mejor local de la zona</p>
+      <a href="/" class="shadow-lg bg-red-600 text-white p-2 rounded-lg">
+        <span>CONTACTAR</span>
+      </a>
+    </div>
+  </div>
+  <div class="flex-none w-full flex flex-row items-center justify-center">
+    <a href="/" class="w-2/3">
+      <img src="/images/los-mejores-vinos-y-tapas.jpg" />
+    </a>
+    <div
+      class="flex flex-col justify-center items-center w-1/3 bg-gray-200 h-full gap-3"
+    >
+      <h2 class="text-3xl font-bold">
+        Los mejores vinos y tapas en Ferrol
+      </h2>
+      <p class="text-lg font-thin">Disfruta de nuestras creaciones más sabrosas</p>
+      <a href="/" class="shadow-lg bg-red-600 text-white p-2 rounded-lg">
+        <span>VER MÁS</span>
+      </a>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.querySelector("#slider");
+    if (slider) {
+      setTimeout(function moveSlide() {
+        const max = slider.scrollWidth - slider.clientWidth;
+        const left = slider.clientWidth;
+
+        if (max === slider.scrollLeft) {
+          slider.scrollTo({ left: 0, behavior: "smooth" });
+        } else {
+          slider.scrollBy({ left, behavior: "smooth" });
+        }
+
+        setTimeout(moveSlide, 4000);
+      }, 4000);
+    } else {
+      console.error("#slider element not found");
+    }
+  });
+</script>
