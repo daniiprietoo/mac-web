@@ -1,41 +1,29 @@
+---
+const all = Astro.props.data;
+const data = all[0]
+---
+
 <section class="dual-section">
   <div class="dual-container flex flex-row m-5 px-20 mb-10">
     <div class="text-container flex flex-col items-ceter justify-center gap-8 text-wrap p-5 py-20 w-1/2">
       <h2 class="font-bold text-2xl text-wrap">
-        Somos la mejor alternativa para tomar algo con tu familia o amigos
+        {data.title}
       </h2>
       <p class="font-thin tracking-wider">
-        ¡Bienvenidos a Catefería mac, tu cafetería-bar en Ferrol! Nuestro
-        negocio lleva muchos años con sus puertas abiertas, y destacamos por
-        ofrecer una experiencia única para todos nuestros clientes.
+        {data.description[0]}
       </p>
       <p class="font-thin tracking-wider">
-        Si estás buscando una auténtica cafetería en Ferrol, has llegado al
-        lugar adecuado. Nuestro local combina la atmósfera acogedora de un bar
-        con la variedad de opciones de una cervecería, como nuestra cerveza de
-        bodega Estrella Galicia. Además, si quieres desayunar en Ferrol,
-        ¡estamos aquí desde temprano! Ofrecemos deliciosos desayunos para
-        empezar el día con energía. Y, si lo deseas, puedes pasar el día
-        disfrutando de nuestra terraza soleada. Somos el mejor bar con terraza
-        en Ferrol, perfecto para tomar algo mientras te relajas al aire libre.
+        {data.description[1]}
       </p>
       <p class="font-thin tracking-wider">
-        Si buscas algo refrescante, ofrecemos una gran variedad de helados y,
-        por supuesto, una selección de sabrosos pinchos. Además, por si fuese
-        poco, los amantes del buen pulpo estarán encantados de saber que
-        contamos con un pulpeiro en determinados días para satisfacer tus
-        antojos de pulpo a la gallega.
+        {data.description[2]}
       </p>
       <p class="font-thin tracking-wider">
-        Para que te sientas como en casa, proporcionamos wifi para nuestros
-        clientes y también aceptamos reservas. Ven a Catefería mac y descubre
-        por qué somos la elección preferida para disfrutar de una experiencia
-        gastronómica única. ¡Te esperamos con los brazos abiertos! Contacta
-        ahora con nosotros y haz tu reserva.
+        {data.description[3]}
       </p>
     </div>
     <div class="flex justify-center h-full items-center w-1/2">
-      <img class="object-center h-full max-w-full" loading="lazy" src="/images/jamon-y-vino.jpg" alt="Jamon y Vino" />
+      <img class="object-center h-full max-w-full" loading="lazy" src={data.image} alt="Jamon y Vino" />
     </div>
   </div>
 </section>

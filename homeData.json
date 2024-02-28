@@ -1,0 +1,103 @@
+{
+  "slider": [
+    {
+      "image": "/images/estas-buscando-una-cafeteria-en-ferrol.jpg",
+      "title": "¿Estás buscando una cafetería en Ferrol?",
+      "description": "Disfruta del mejor local de la zona",
+      "link": "/",
+      "buttonText": "CONTACTAR"
+    },
+    {
+      "image": "/images/los-mejores-vinos-y-tapas.jpg",
+      "title": "Los mejores vinos y tapas en Ferrol",
+      "description": "Disfruta de nuestras creaciones más sabrosas",
+      "link": "/",
+      "buttonText": "VER MÁS"
+    }
+  ],
+  "dual": [
+    {
+      "image": "/images/cerveceria-ferrol.jpg",
+      "title": "En nuestra cervecería podrás disfrutar de una experiencia única",
+      "subtitle": "¡Ofrecemos cerveza de bodega Estrella Galicia!",
+      "description": [
+        "En nuestra cervecería en Ferrol consentimos a los amantes de la cerveza con nuestra excepcional oferta de cerveza de bodega Estrella Galicia. ¿Qué la hace tan especial? Esta cerveza es pura, natural y recién hecha, directa desde la fábrica hasta tu copa.",
+        "Imagina la experiencia: estás buscando dónde tomar algo en Ferrol, de repente ves nuestra terraza, decides sentarte y pedir. Te serviremos una cerveza recién elaborada y sin pasteurizar, un deleite para los paladares más exigentes. La frescura y la calidad son incomparables, y cada sorbo te transporta al corazón de Galicia, donde esta cerveza es elaborada con pasión y tradición.",
+        "En Catefería mac nos preocupamos siempre por ofrecer la calidad, y nuestra cerveza de bodega Estrella Galicia es la elección perfecta para aquellos que buscan una experiencia cervecera auténtica y deliciosa. ¡Ven y descubre el sabor de la cerveza recién hecha en nuestra cervecería en Ferrol!"
+      ],
+      "link": "/"
+    }
+  ],
+  "dualInvert": [
+    {
+      "image": "/images/jamon-y-vino.jpg",
+      "title": "Somos la mejor alternativa para tomar algo con tu familia o amigos",
+      "description": [
+        "¡Bienvenidos a Catefería mac, tu cafetería-bar en Ferrol! Nuestro negocio lleva muchos años con sus puertas abiertas, y destacamos por ofrecer una experiencia única para todos nuestros clientes.",
+        "Si estás buscando una auténtica cafetería en Ferrol, has llegado al lugar adecuado. Nuestro local combina la atmósfera acogedora de un bar con la variedad de opciones de una cervecería, como nuestra cerveza de bodega Estrella Galicia. Además, si quieres desayunar en Ferrol, ¡estamos aquí desde temprano! Ofrecemos deliciosos desayunos para empezar el día con energía. Y, si lo deseas, puedes pasar el día disfrutando de nuestra terraza soleada. Somos el mejor bar con terraza en Ferrol, perfecto para tomar algo mientras te relajas al aire libre.",
+        "Si buscas algo refrescante, ofrecemos una gran variedad de helados y, por supuesto, una selección de sabrosos pinchos. Además, por si fuese poco, los amantes del buen pulpo estarán encantados de saber que contamos con un pulpeiro en determinados días para satisfacer tus antojos de pulpo a la gallega.",
+        "Para que te sientas como en casa, proporcionamos wifi para nuestros clientes y también aceptamos reservas. Ven a Catefería mac y descubre por qué somos la elección preferida para disfrutar de una experiencia gastronómica única. ¡Te esperamos con los brazos abiertos! Contacta ahora con nosotros y haz tu reserva."
+      ],
+      "link": "/"
+    }
+  ],
+  "grid": [
+    {
+      "title": "Descubre lo que nos hace únicos en Ferrol",
+      "items": [
+        {
+          "icon": "/images/ico-terrazas.svg",
+          "title": "2 terrazas disponibles",
+          "description": "En Catefería mac ofrecemos no una, ¡sino dos terrazas! Disfruta de tu café o cerveza al aire libre en nuestro espacio acogedor y soleado o bajo la sombra. La elección es tuya para vivir una experiencia única en un bar con terraza en Ferrol.",
+          "link": "/"
+        },
+        {
+          "icon": "/images/ico-retransmisiones.svg",
+          "title": "Retransmisiones deportivas",
+          "description": "Amamos el deporte tanto como tú. Disfruta de emocionantes partidos y eventos deportivos en vivo en nuestro bar en Ferrol. Cerveza, amigos y la pasión del deporte, ¡todo en un solo lugar!",
+          "link": "/"
+        },
+        {
+          "icon": "/images/ico-helados.svg",
+          "title": "Amplia carta de helados",
+          "description": "Si tienes un antojo de dulce, estás de suerte. Ofrecemos una amplia carta de helados con sabores deliciosos. Desde los clásicos hasta los más extravagantes, encontrarás el helado perfecto para satisfacer tus deseos.",
+          "link": "/"
+        },
+        {
+          "icon": "/images/ico-tapas.svg",
+          "title": "Tapas y Vinos",
+          "description": "Explora nuestra selección de tapas exquisitas y acompáñalas con una cuidadosa selección de vinos. En Catefería mac te llevaremos en un viaje de sabores que harán que tu paladar baile de alegría.",
+          "link": "/"
+        }
+      ]
+    }
+  ],
+  "cardGrid": [
+    {
+      "title": "¿No sabes dónde desayunar en Ferrol? Cafetería mac es la solución",
+      "description": "Si quieres desayunar en Ferrol, ¡anímate a venir a Cafetería mac y prueba nuestras especialidades matutinas! Ofrecemos diversos desayunos para comenzar el día con energía. Tostadas, zumos, cafés, bollerías... Tenemos algo para todos los gustos. ¡Ven a disfrutar de un delicioso desayuno en Ferrol!",
+      "items": [
+        {
+          "image": "/images/cafes-infusiones.jpg",
+          "title": "Cafés e infusiones",
+          "description": "En nuestra cafetería en Ferrol mimamos tu paladar con una variedad de cafés e infusiones excepcionales. Desde el espresso más intenso hasta las infusiones relajantes, tenemos la bebida perfecta para ti."
+        },
+        {
+          "image": "/images/tostadas.jpg",
+          "title": "Tostadas variadas",
+          "description": "Nuestras tostadas son el lienzo en blanco perfecto para tus gustos matutinos. Desde tostadas con aguacate hasta las clásicas con mermelada, ofrecemos una selección variada que se adapta a tu preferencia."
+        },
+        {
+          "image": "/images/zumos.jpg",
+          "title": "Zumos naturales",
+          "description": "Para un impulso de energía fresca, nuestros zumos naturales son insuperables. Preparados con frutas frescas, ofrecen un sabor vibrante y nutritivo. Una forma refrescante de comenzar el día."
+        },
+        {
+          "image": "/images/bolleria.jpg",
+          "title": "Bollería",
+          "description": "¿Tienes un antojo dulce? Nuestra bollería recién horneada es la respuesta. Desde croissants dorados hasta donuts esponjosos, deleita tus sentidos con nuestros manjares de bollería."
+        }
+      ]
+    }
+  ]
+}

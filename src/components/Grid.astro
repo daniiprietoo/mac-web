@@ -1,58 +1,65 @@
-<section class="grid-container flex flex-col items-center justify-center pt-20 pb-20 bg-gray-200 mb-20">
-  <h2 class="center text-3xl font-bold italic pb-5">Descubre lo que nos hace únicos en Ferrol</h2>
-  <div class="grid grid-cols-2 justify-center items-center custom-grid gap-x-20">
-    <div class="grid-item flex flex-col items-center text-center px-20 py-5 text-wrap">
+---
+const all = Astro.props.data;
+const data = all[0];
+const item1 = data.items[0];
+const item2 = data.items[1];
+const item3 = data.items[2];
+const item4 = data.items[3];
+---
+
+<section
+  class="grid-container flex flex-col items-center justify-center pt-20 pb-20 bg-gray-200 mb-20"
+>
+  <h2 class="center text-3xl font-bold italic pb-5">{data.title}</h2>
+  <div
+    class="grid grid-cols-2 justify-center items-center custom-grid gap-x-20"
+  >
+    <div
+      class="grid-item flex flex-col items-center text-center px-20 py-5 text-wrap"
+    >
       <a href="/">
-        <img src="/images/ico-terrazas.svg" alt="Terrace" class="grid-image w-20 mb-3" />
+        <img loading="lazy" src={item1.icon} alt="Terrace" class="grid-image w-20 mb-3" />
       </a>
-      <h3 class="mb-5 text-red-600 text-xl italic">2 terrazas disponibles</h3>
+      <h3 class="mb-5 text-red-600 text-xl italic">{item1.title}</h3>
       <p class="font-thin">
-        En Catefería mac ofrecemos no una, ¡sino dos terrazas! Disfruta de
-        tu café o cerveza al aire libre en nuestro{" "}
-        <strong>espacio acogedor y soleado</strong> o bajo la sombra. La
-        elección es tuya para vivir una experiencia única en un bar con
-        terraza en Ferrol.
+        {item1.description}
       </p>
     </div>
-    <div class="grid-item flex flex-col items-center text-center px-20 py-5  text-wrap">
+    <div
+      class="grid-item flex flex-col items-center text-center px-20 py-5 text-wrap"
+    >
       <a href="/">
-        <img
-          src="/images/ico-retransmisiones.svg"
-          alt="Sports Retransmission"
-          class="w-20 mb-3"
+        <img loading="lazy" src={item2.icon} alt="Sports Retransmission" class="w-20 mb-3" />
+      </a>
+      <h3 class="mb-5 text-red-600 text-xl italic">{item2.title}</h3>
+      <p class="font-thin">
+        {item2.description}
+      </p>
+    </div>
+    <div
+      class="grid-item flex flex-col items-center text-center px-20 py-5 m-0.5 text-wrap"
+    >
+      <a href="/">
+        <img loading="lazy" src={item3.icon} alt="Ice Cream" class="grid-image w-20 mb-3" />
+      </a>
+      <h3 class="mb-5 text-red-600 text-xl italic">{item3.title}</h3>
+      <p class="font-thin">
+        {item3.description}
+      </p>
+    </div>
+    <div
+      class="grid-item flex flex-col items-center text-center px-20 py-5 m-0.5 text-wrap"
+    >
+      <a href="/">
+        <img loading="lazy"
+          src={item4.icon}
+          alt="Tapas and wines"
+          class="grid-image w-20 mb-3"
         />
       </a>
-      <h3 class="mb-5 text-red-600 text-xl italic">Retransmisiones deportivas</h3>
+      <h3 class="mb-5 text-red-600 text-xl italic">{item4.title}</h3>
       <p class="font-thin">
-        Amamos el deporte tanto como tú. Disfruta de emocionantes{" "}
-        <strong>partidos y eventos deportivos</strong> en vivo en nuestro
-        bar en Ferrol. Cerveza, amigos y la pasión del deporte, ¡todo en un
-        solo lugar!
-      </p>
-    </div>
-    <div class="grid-item flex flex-col items-center text-center px-20 py-5  m-0.5 text-wrap">
-      <a href="/">
-        <img src="/images/ico-helados.svg" alt="Ice Cream" class="grid-image w-20 mb-3" />
-      </a>
-      <h3 class="mb-5 text-red-600 text-xl italic">Amplia carta de helados</h3>
-      <p class="font-thin">
-        Si tienes un antojo de dulce, estás de suerte. Ofrecemos una amplia
-        carta de helados con sabores deliciosos. Desde los{" "}
-        <strong>clásicos</strong> hasta los más{" "}
-        <strong>extravagantes</strong>, encontrarás el helado perfecto para
-        satisfacer tus deseos.
-      </p>
-    </div>
-    <div class="grid-item flex flex-col items-center text-center px-20 py-5 m-0.5 text-wrap">
-      <a href="/">
-        <img src="/images/ico-tapas.svg" alt="Tapas and wines" class="grid-image w-20 mb-3" />
-      </a>
-      <h3 class="mb-5 text-red-600 text-xl italic">Tapas y Vinos</h3>
-      <p class="font-thin">
-        Explora nuestra selección de tapas exquisitas y acompáñalas con una
-        cuidadosa selección de vinos. En Catefería mac te llevaremos en un <strong>viaje de sabores
-        </strong> que harán que tu paladar baile de
-        alegría.
+        {item4.description}
       </p>
     </div>
   </div>

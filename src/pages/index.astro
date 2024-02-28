@@ -1,22 +1,22 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Grid from '../components/Grid.astro';
-import Dual from '../components/Dual.astro';
-import Slider from '../components/Slider.astro';
-import DualInvert from '../components/DualInvert.astro';
-import CardGrid from '../components/CardGrid.astro';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Grid from "../components/Grid.astro";
+import Dual from "../components/Dual.astro";
+import Slider from "../components/Slider.astro";
+import DualInvert from "../components/DualInvert.astro";
+import CardGrid from "../components/CardGrid.astro";
+
+import { slider, dualInvert, grid, dual, cardGrid } from "../../homeData.json";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<Header />
-		<Slider />
-		<DualInvert />
-		<Grid />
-		<Dual />
-		<CardGrid />
-	</main>
+  <main>
+    <Header />
+    <Slider data={slider} />
+    <DualInvert data={dualInvert} />
+    <Grid data={grid} />
+    <Dual data={dual} />
+    <CardGrid data={cardGrid} />
+  </main>
 </Layout>
-
-
