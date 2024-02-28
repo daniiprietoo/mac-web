@@ -1,73 +1,29 @@
 ---
 const all = Astro.props.data
 const data = all[0]
-
-const item1 = data.items[0]
-const item2 = data.items[1]
-const item3 = data.items[2]
-const item4 = data.items[3]
 ---
 
 <section class="flex flex-col items-center justify-center mb-20">
   <div class="flex flex-col items-center justify-center px-40 py-5">
-    <h2 class="font-bold text-2xl text-wrap pb-3">
+    <h2 class="font-custom font-script text-4xl text-wrap pb-3">
       {data.title}
     </h2>
     <p class="font-thin text-md text-wrap text-center">
       {data.description}
     </p>
   </div>
-  <div class="flex flex-row gap-10 px-20">
-    <article class="flex flex-col p-4 gap-3 shadow-xl bg-white w-auto">
-      <img
-        loading="lazy"
-        src={item1.image}
-        alt="Café"
-        class="h-1/2 overflow-hidden w-full"
-      />
-      <h3 class="font-bold text-xl text-wrap">{item1.title}</h3>
-      <p class="font-thin">
-        {item1.description}
-      </p>
-    </article>
-    <article class="flex flex-col p-4 gap-3 shadow-xl bg-white">
-      <img
-        loading="lazy"
-        src={item2.image}
-        alt="Café"
-        class="h-1/2 overflow-hidden w-full"
-      />
-
-      <h3 class="font-bold text-xl text-wrap">{item2.title}</h3>
-      <p class="font-thin">
-        {item2.description}
-      </p>
-    </article>
-    <article class="flex flex-col p-4 gap-3 shadow-xl bg-white">
-      <img
-        loading="lazy"
-        src={item3.image}
-        alt="Café"
-        class="h-1/2 overflow-hidden w-full"
-      />
-
-      <h3 class="font-bold text-xl text-wrap">{item3.title}</h3>
-      <p class="font-thin">
-        {item3.description}
-      </p>
-    </article>
-    <article class="flex flex-col p-4 gap-3 shadow-xl bg-white">
-      <img
-        loading="lazy"
-        src={item4.image}
-        alt="Café"
-        class="h-1/2 overflow-hidden w-full"
-      />
-
-      <h3 class="font-bold text-xl text-wrap">{item4.title}</h3>
-      <p class="font-thin">
-        {item4.description}
-      </p>
-    </article>
+  <div class="flex flex-row gap-10 px-20 ">
+    {data.items.map((item) => (
+      <article class="flex flex-col p-4 gap-3 shadow-xl bg-white w-full">
+        <img
+          loading="lazy"
+          src={item.image}
+          alt="Café"
+          class="overflow-hidden w-full"
+        />
+        <h3 class="font-custom font-script text-3xl text-wrap">{item.title}</h3>
+        <p class="font-thin">{item.description}</p>
+      </article>
+    ))}
   </div>
 </section>
