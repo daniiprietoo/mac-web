@@ -1,0 +1,20 @@
+---
+const all = Astro.props.data;
+const data = all[0];
+---
+
+<section
+  class="w-full bg-cover bg-center flex flex-col justify-center items-center py-20 bg-fixed"
+  style=`background-image: url(${data.bgImage})`
+>
+  <div class="bg-white bg-opacity-80 w-1/2 p-10 space-y-4">
+    <h2 class="text-3xl text-center font-bold font-mono">{data.title}</h2>
+    <div class="flex justify-center">
+      <div class="text-center teext-wrap space-y-5 text-lg font-mono">
+        <p>{data.description[0]}</p>
+        <p>{data.description[1]}</p>
+        <p>{data.description[2]}</p>
+      </div>
+    </div>
+  </div>
+</section>

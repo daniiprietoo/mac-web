@@ -99,5 +99,16 @@
         }
       ]
     }
+  ],
+  "container": [
+    {
+      "title": "¡Recuerda que nuestro bar te ofrece pinchos con cada consumición!",
+      "description": [
+        "En nuestro bar con terraza en Ferrol, con cada consumición que disfrutas en nuestro establecimiento, te ofrecemos exquisitos pinchos de alta calidad. Nuestros pinchos están elaborados con ingredientes selectos y frescos, lo que garantiza un sabor excepcional en cada bocado.",
+        "Estos pinchos son la pareja perfecta para nuestra extensa carta de vinos, ya que realzan la experiencia gastronómica. Desde vinos tintos robustos hasta blancos refrescantes, encontrarás la combinación perfecta para complementar estos deliciosos pinchos.",
+        "En Catefería mac creemos que cada visita debe ser especial, y nuestros pinchos de calidad añaden un toque único a tu experiencia. ¡Ven y disfruta de una armoniosa fusión de sabores y aromas en cada rincón de nuestra cafetería en Ferrol!"
+      ],
+      "bgImage": "/images/pinchos.jpg"
+    }
   ]
 }

@@ -6,17 +6,19 @@ import Dual from "../components/Dual.astro";
 import Slider from "../components/Slider.astro";
 import DualInvert from "../components/DualInvert.astro";
 import CardGrid from "../components/CardGrid.astro";
+import Container from "../components/Container.astro";
 
-import { slider, dualInvert, grid, dual, cardGrid } from "../../homeData.json";
+import { slider, dualInvert, grid, dual, cardGrid, container } from "../../homeData.json";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main>
+  <main class="text-lg"> 
     <Header />
     <Slider data={slider} />
     <DualInvert data={dualInvert} />
     <Grid data={grid} />
     <Dual data={dual} />
     <CardGrid data={cardGrid} />
+    <Container data={container}/>
   </main>
 </Layout>
