@@ -110,5 +110,17 @@
       ],
       "bgImage": "/images/pinchos.jpg"
     }
+  ],
+  "gallery": [
+    {
+      "title": "Echa un vistazo a nuestras instalaciones",
+      "images": [
+        "/images/mac-1.jpg",
+        "/images/mac-2.jpg",
+        "/images/mac-3.jpg",
+        "/images/mac-4.jpg",
+        "/images/mac-5.jpg"
+      ]
+    }
   ]
 }

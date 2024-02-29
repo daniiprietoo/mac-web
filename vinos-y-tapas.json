@@ -1,0 +1,24 @@
+{
+  "slider": [
+    {
+      "image": "/images/tapear.jpg",
+      "title": "Ven a degustar nuestros vinos y tapas en Ferrol",
+      "description": "",
+      "link": "/",
+      "buttonText": ""
+    }
+  ],
+  "dual": [
+    {
+      "image": "/images/vinos.jpg",
+      "title": "Somos una gran alternativa para tapear y disfrutar de un buen vino",
+      "subtitle": "",
+      "description": [
+        "¿Cansado de buscar dónde comer en Ferrol sin encontrar nada que te llame la atención? Pues has llegado al sitio correcto. Catefería mac somos mucho más que una cafetería. Aquí, te invitamos a tapear con estilo. Somos esa tapería en Ferrol donde cada tapa y ración es un homenaje a la buena comida: desde nuestras inolvidables croquetas hasta el raxo, la zorza y los chipirones.",
+        "¿Eres de los que disfrutan un buen vino? Entonces nuestra vinoteca en Ferrol es tu paraíso. Contamos con una carta de vinos cuidadosamente seleccionada, pensada para complementar a la perfección nuestras tapas.",
+        "Si buscas algo más casual, te tenemos cubierto. También somos una bocatería con opciones que te harán la boca agua. En resumen, si te preguntas dónde comer en Ferrol, ¡la respuesta es Catefería mac! Ven y disfruta de la mejor experiencia de vinos y tapas en Ferrol. ¡No te lo puedes perder! Pide ya tu reserva."
+      ],
+      "link": "/"
+    }
+  ]
+}

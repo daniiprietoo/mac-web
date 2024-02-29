@@ -1,0 +1,35 @@
+---
+const all = Astro.props.data;
+const data = all[0];
+---
+
+<section class="flex flex-col justify-center items-center mb-20">
+  <h2 class="font-script text-4xl font-bold pb-10">{data.title}</h2>
+  <div class="grid grid-cols-6 col-span-2 gap-5">
+    <div
+      class="overflow-hidden rounded-xl col-span-3 max-h-[18rem] transform hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out"
+    >
+      <img class="h-full w-full object-cover" src={data.images[0]} alt="" />
+    </div>
+    <div
+      class="overflow-hidden rounded-xl col-span-3 max-h-[18rem] transform hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out"
+    >
+      <img class="h-full w-full object-cover" src={data.images[1]} alt="" />
+    </div>
+    <div
+      class="overflow-hidden rounded-xl col-span-2 max-h-[14rem] transform hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out"
+    >
+      <img class="h-full w-full object-cover" src={data.images[2]} alt="" />
+    </div>
+    <div
+      class="overflow-hidden rounded-xl col-span-2 max-h-[14rem] transform hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out"
+    >
+      <img class="h-full w-full object-cover" src={data.images[3]} alt="" />
+    </div>
+    <div
+      class="relative overflow-hidden rounded-xl col-span-2 max-h-[14rem] transform hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out"
+    >
+      <img class="h-full w-full object-cover" src={data.images[4]} alt="" />
+    </div>
+  </div>
+</section>

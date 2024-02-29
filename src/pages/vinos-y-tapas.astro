@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
 import Grid from "../components/Grid.astro";
 import Dual from "../components/Dual.astro";
 import Slider from "../components/Slider.astro";
@@ -9,17 +8,12 @@ import CardGrid from "../components/CardGrid.astro";
 import Container from "../components/Container.astro";
 import Gallery from "../components/Gallery.astro";
 
-import { slider, dualInvert, grid, dual, cardGrid, container, gallery } from "../../homeData.json";
+import { slider, dual } from "../../vinos-y-tapas.json";
 ---
 
 <Layout>
   <main class="text-lg"> 
     <Slider data={slider} />
-    <DualInvert data={dualInvert} />
-    <Grid data={grid} />
-    <Dual data={dual} />
-    <CardGrid data={cardGrid} />
-    <Container data={container}/>
-    <Gallery data={gallery}/>
+    <Dual data={dual}/>
   </main>
 </Layout>
