@@ -11,22 +11,15 @@ const data = all[0];
       <h2 class="font-custom font-script text-4xl text-wrap">
         {data.title}
       </h2>
-      <p class="font-thin tracking-wider">
-        {data.description[0]}
-      </p>
-      <p class="font-thin tracking-wider">
-        {data.description[1]}
-      </p>
-      <p class="font-thin tracking-wider">
-        {data.description[2]}
-      </p>
-      <p class="font-thin tracking-wider">
-        {data.description[3]}
-      </p>
+      {data.description.map((description) => (
+        <p class="font-thin tracking-wider">
+          {description}
+        </p>
+      ))}
     </div>
     <div class="flex justify-center h-full items-center w-1/2">
       <img
-        class="object-center h-full max-w-full"
+        class="object-center max-w-full"
         loading="lazy"
         src={data.image}
         alt="Jamon y Vino"

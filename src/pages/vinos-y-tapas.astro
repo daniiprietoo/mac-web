@@ -6,14 +6,16 @@ import Slider from "../components/Slider.astro";
 import DualInvert from "../components/DualInvert.astro";
 import CardGrid from "../components/CardGrid.astro";
 import Container from "../components/Container.astro";
-import Gallery from "../components/Gallery.astro";
 
-import { slider, dual } from "../../vinos-y-tapas.json";
+import { slider, dual, container, cardGrid, dualInvert } from "../../vinos-y-tapas.json";
 ---
 
 <Layout>
   <main class="text-lg"> 
     <Slider data={slider} />
     <Dual data={dual}/>
+    <CardGrid data={cardGrid} />
+    <Container data={container} />
+    <DualInvert data={dualInvert}/>
   </main>
 </Layout>

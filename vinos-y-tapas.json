@@ -20,5 +20,61 @@
       ],
       "link": "/"
     }
+  ],
+  "cardGrid": [
+    {
+      "title": "Descubre algunas de las raciones que preparamos como tapería en Ferrol",
+      "description": "",
+      "items": [
+        {
+          "image": "/images/racion-tortilla.jpg",
+          "title": "Tortilla",
+          "description": "Si quieres comer la mejor tortilla de la zona, entonces tienes que venir a vernos. Nuestra tortilla es esponjosa y jugosa, un clásico para tapear en Ferrol que no te puedes perder. Ven a probarla, ¡es una experiencia culinaria única en nuestra tapería en Ferrol!"
+        },
+        {
+          "image": "/images/racion-raxo.jpg",
+          "title": "Raxo",
+          "description": "Nuestro raxo es de otro nivel. Si te apetece comer algo verdaderamente auténtico, esta carne marinada y troceada es tu opción. Perfecto para tapear en Ferrol cuando paseas con amigos, es una de las tapas que definen nuestra calidad en Catefería mac."
+        },
+        {
+          "image": "/images/racion-zorza.jpg",
+          "title": "Zorza",
+          "description": "Para los amantes de la zorza, nosotros tenemos un plato de calidad. En nuestra tapería en Ferrol la preparamos con el mejor adobo y mucho cariño. Es una opción deliciosa para picotear y disfrutar de nuestras tapas auténticas."
+        },
+        {
+          "image": "/images/racion-croquetas.jpg",
+          "title": "Croquetas",
+          "description": "Nuestras croquetas son caseras y de gran calidad. Te las recomendamos si eres un fanático desde este tipo de tapas, pues las cocinamos cremosas por dentro y crujientes por fuera. Son perfectas para disfrutar con nuestra amplia carta de vinos."
+        },
+        {
+          "image": "/images/racion-alitas.jpg",
+          "title": "Alitas de pollo",
+          "description": "Si prefieres algo más internacional mientras buscas dónde comer, nuestras alitas de pollo son la elección perfecta. Fritas a la perfección, son la mezcla ideal de jugosas y crujientes. Ideales para una comida informal en nuestra bocatería en Ferrol."
+        },
+        {
+          "image": "/images/racion-chipirones.jpg",
+          "title": "Chipirones",
+          "description": "Para una experiencia de vinos y tapas en Ferrol al completo, nuestros chipirones son imprescindibles. Frescos y cocinados a la perfección, ofrecen un sabor del mar que te hará sentir como si estuvieras en la costa gallega."
+        }
+      ]
+    }
+  ],
+  "container": [
+    {
+      "title": "También somos una bocatería en la que podrás probar deliciosos bocadillos",
+      "description": [
+        "¡Oye, que las delicias en nuestro bar de tapas en Ferrol no se quedan solo en tapas y raciones! Para quienes buscan algo más de mano, tenemos una selección de bocadillos que te dejarán con ganas de más. Y si hablamos de bocadillos, tenemos que destacar nuestra estrella: el bocadillo de tortilla con mojo. Es nuestra especialidad y una auténtica revelación de sabores. Imagina una tortilla jugosa con el toque único de nuestro mojo casero, todo metido en un pan crujiente. Es una opción perfecta para esas cenas con amigos, cuando buscas algo delicioso pero sin complicaciones. Si quieres comer en Ferrol, ¡te esperamos en Catefería mac para que lo pruebes!"
+      ],
+      "bgImage": "/images/tapa-de-tortilla.jpg"
+    }
+  ],
+  "dualInvert": [
+    {
+      "title": "¿Aún no tienes plan de viernes? Nuestro bar de tapas te ofrece el mejor pulpo",
+      "description": [
+        "¡Atención, amantes del pulpo! Sabemos que el invierno pide platos que reconforten el alma, y por eso tenemos una sorpresa para vosotros. Todos los viernes, cada 15 días, convertimos Catefería mac en el rincón del pulpeiro. Sí, has leído bien. Un pulpeiro experto se instala en nuestro bar para preparar este manjar gallego de forma tradicional. Es la oportunidad perfecta para deleitarse con pulpo a feira o pulpo a la gallega sin tener que cocinarlo en casa. Imagina disfrutar de este plato icónico con un buen vino de nuestra extensa carta. ¡No hay mejor manera de recibir el fin de semana! Ven y únete a la fiesta del pulpo en nuestra tapería en Ferrol."
+      ],
+      "image": "/images/pulpo.jpg"
+    }
   ]
 }

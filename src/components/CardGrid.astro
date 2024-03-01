@@ -1,6 +1,6 @@
 ---
-const all = Astro.props.data
-const data = all[0]
+const all = Astro.props.data;
+const data = all[0];
 ---
 
 <section class="flex flex-col items-center justify-center mb-20">
@@ -12,18 +12,24 @@ const data = all[0]
       {data.description}
     </p>
   </div>
-  <div class="flex flex-row gap-10 px-20 ">
-    {data.items.map((item) => (
-      <article class="flex flex-col p-4 gap-3 shadow-xl bg-white w-full">
-        <img
-          loading="lazy"
-          src={item.image}
-          alt="Café"
-          class="overflow-hidden w-full"
-        />
-        <h3 class="font-custom font-script text-3xl text-wrap">{item.title}</h3>
-        <p class="font-thin">{item.description}</p>
-      </article>
-    ))}
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-8 py-6"
+  >
+    {
+      data.items.map((item, index) => (
+        <article class="flex flex-col gap-5 shadow-xl bg-white p-5">
+          <img
+            loading="lazy"
+            src={item.image}
+            alt="Café"
+            class="overflow-hidden w-full"
+          />
+          <h3 class="font-custom font-script text-3xl text-wrap">
+            {item.title}
+          </h3>
+          <p class="font-thin">{item.description}</p>
+        </article>
+      ))
+    }
   </div>
 </section>
