@@ -22,15 +22,11 @@ const data = all[0];
       <h3 class="font-bold text-xl text-wrap text-red-600">
         {data.subtitle}
       </h3>
-      <p class="font-thin tracking-wider text-wrap">
-        {data.description[0]}
-      </p>
-      <p class="font-thin tracking-wider text-wrap">
-        {data.description[1]}
-      </p>
-      <p class="font-thin tracking-wider text-wrap">
-        {data.description[2]}
-      </p>
+      {data.description.map((desc) => (
+        <p class="font-thin tracking-wider text-wrap">
+          {desc}
+        </p>
+      ))}
     </div>
   </div>
 </section>
